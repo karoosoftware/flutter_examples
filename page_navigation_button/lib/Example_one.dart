@@ -16,7 +16,7 @@ class ExampleOne extends StatelessWidget {
               const SizedBox(height: 50),
               OutlinedButton.icon(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/next_page'); // Corrected method
+                  Navigator.pushNamed(context, '/next_page');
                 },
                 icon: const Icon(Icons.arrow_forward),
                 label: const Text('Next page'),
